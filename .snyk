@@ -1,0 +1,33 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:qs:20170213':
+    - gitbook-cli > npmi > npm > request > qs:
+        patched: '2026-01-06T21:19:24.925Z'
+        id: 'npm:qs:20170213'
+        path: gitbook-cli > npmi > npm > request > qs
+    - gitbook-cli > npmi > npm > node-gyp > request > qs:
+        patched: '2026-01-06T21:19:24.925Z'
+        id: 'npm:qs:20170213'
+        path: gitbook-cli > npmi > npm > node-gyp > request > qs
+    - gitbook-cli > npmi > npm > npm-registry-client > request > qs:
+        patched: '2026-01-06T21:19:24.925Z'
+        id: 'npm:qs:20170213'
+        path: gitbook-cli > npmi > npm > npm-registry-client > request > qs
+  'npm:tunnel-agent:20170305':
+    - gitbook-cli > npmi > npm > request > tunnel-agent:
+        patched: '2026-01-06T21:19:24.925Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: gitbook-cli > npmi > npm > request > tunnel-agent
+    - gitbook-cli > npmi > npm > node-gyp > request > tunnel-agent:
+        patched: '2026-01-06T21:19:24.925Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: gitbook-cli > npmi > npm > node-gyp > request > tunnel-agent
+    - gitbook-cli > npmi > npm > npm-registry-client > request > tunnel-agent:
+        patched: '2026-01-06T21:19:24.925Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          gitbook-cli > npmi > npm > npm-registry-client > request >
+          tunnel-agent
